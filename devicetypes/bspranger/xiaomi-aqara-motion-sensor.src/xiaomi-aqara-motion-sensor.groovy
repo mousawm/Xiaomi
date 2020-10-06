@@ -23,7 +23,7 @@
  */
 
 metadata {
-    definition (name: "Xiaomi Aqara Motion Sensor", namespace: "bspranger", author: "bspranger") {
+    definition (name: "Xiaomi Aqara Motion Sensor", namespace: "bspranger", author: "bspranger", ocfDeviceType: "x.com.st.d.sensor.motion") {
         capability "Motion Sensor"
         capability "Illuminance Measurement"
         capability "Configuration"
